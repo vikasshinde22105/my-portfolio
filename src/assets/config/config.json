@@ -1,0 +1,61 @@
+{
+	"userDetails": {
+		"name": "Vikas",
+		"lastname": "Shinde",
+		"email":"shindevikas22105@gmail.com",
+		"mobile":"+919822010980",
+		"address":"412308, Phursungi, Hapdsar,Pune(MH),INDIA",
+		"aboutme":"Hello, I'm a Vikas, web-developer based on India(Pune). I have rich experience in web site design & building and customization. Also I am good at making chatbot related application",
+		"job": {
+			"role": "Sr Front End Developer",
+			"skills": ["HTML5", "CSS3", "SCSS", "Angular", "Javascript", "NodeJS", "ReactJs", "MongoDb", "NeDb", "DynamoDB"],
+			"organisation":[
+			{
+			"name":"Accenture Solutions",
+			"role":"Sr Software Engineer",
+			"startDate":"Feb 2017",
+			"endDate":"Currently Working Here",
+			"Resposiblity":["Design and Devlelop Pixel Perfect Design","Manage Git Related Stuff","Create New Components"]
+			},
+			{
+			"name":"Hurix Digital Solutions",
+			"role":"Software Engineer",
+			"startDate":"Nov 2015",
+			"endDate":"Feb 2017",
+			"Resposiblity":["Design and Devlelop Pixel Perfect Design","Manage Git Related Stuff","Create New Components"]
+			},
+			{
+			"name":"FoodPanda.com",
+			"role":"Software Engineer",
+			"startDate":"Oct 2014",
+			"endDate":"Nov 2015",
+			"Resposiblity":["Design and Devlelop Pixel Perfect Design","Manage Git Related Stuff","Create New Components"]
+			}
+			]
+		},
+		"education":[
+			{
+			"name":"MCA",
+			"college":"G.H.Raisoni College,Pune",
+			"startDate":"2010",
+			"endDate":"2013",
+			"Resposiblity":["Computer Application","Software Development","Business Communication"]
+			},
+			{
+			"name":"BCA",
+			"college":"Sinhgad College,Pune",
+			"startDate":"2007",
+			"endDate":"2010",
+			"Resposiblity":["Computer Application","Software Development","Business Communication"]
+			},
+			{
+			"name":"HSC",
+			"college":"Sadhna High School,Pune",
+			"startDate":"2005",
+			"endDate":"2007",
+			"Resposiblity":["Computer Application","Software Development","Business Communication"]
+			}
+			]
+
+	}
+}

@@ -1,0 +1,18 @@
+import { Component, OnInit } from '@angular/core';
+import { ConfigService } from '../../config/config.services';
+
+@Component({
+    selector: 'profile-education',
+    templateUrl: './education.component.html',
+    styleUrls: ['./education.component.scss']
+})
+export class EducationComponent implements OnInit {
+	public userDetails:any;
+     constructor(
+       userService: ConfigService
+    ) {
+     this.userDetails = userService.getUserDetails();
+    }
+
+    ngOnInit() {}
+}

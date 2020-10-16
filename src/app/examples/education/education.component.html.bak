@@ -1,0 +1,45 @@
+<div class="bolor-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 col-md-6">
+                              <div class="mh-work">
+							   <h2 class="wow fadeInUp module-title" data-wow-duration="0.8s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">Education Details
+								<span>Educational</span>
+							</h2>
+							<div class="module-line"></div>
+							 <div class="mh-experience-deatils">
+                                    <!-- Education Institutes-->
+                                    <div *ngFor="let edu of userDetails.education" class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                        <h4>{{edu.name}} |<a href="">{{edu.college}}</a></h4>
+                                        <div class="mh-eduyear">{{edu.startDate}} - {{edu.endDate}}</div>
+                                        <span>Responsibility :</span>
+                                        <ul class="work-responsibility">
+                                            <li *ngFor="let respons of edu.Resposiblity"><i class="fa fa-circle"></i>{{respons}}</li>
+                                        </ul>
+                                    </div>                                
+                                    </div>
+                             </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-work">
+                                <h2 class="wow fadeInUp module-title" data-wow-duration="0.8s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">Work Experience
+								<span>Work Experience</span>
+							</h2>
+							<div class="module-line"></div>
+                                <div class="mh-experience-deatils">
+                                    <!-- Education Institutes-->
+                                    <div *ngFor="let exp of userDetails.job.organisation" class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                        <h4>{{exp.role}} |<a href="">{{exp.name}}</a></h4>
+                                        <div class="mh-eduyear">{{exp.startDate}} - {{exp.endDate}}</div>
+                                        <span>Responsibility :</span>
+                                        <ul class="work-responsibility">
+                                            <li *ngFor="let respons of exp.Resposiblity"><i class="fa fa-circle"></i>{{respons}}</li>
+                                        </ul>
+                                    </div>                                
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			

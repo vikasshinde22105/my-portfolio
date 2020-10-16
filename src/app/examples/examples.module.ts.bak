@@ -1,0 +1,36 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
+
+import { ProfileComponent } from './profile/profile.component';
+import { EducationComponent } from './education/education.component';
+import { AboutComponent } from './about/about.component';
+import { MyworkComponent } from './mywork/mywork.component';
+import { MyskillComponent } from './myskill/myskill.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
+import { IntroComponent } from './intro/intro.component';
+
+import { ConfigService } from '../config/config.services';
+
+@NgModule({
+    imports: [
+        CommonModule,
+        FormsModule,
+        NgbModule,
+	HttpClientModule,
+    ],
+    declarations: [
+        EducationComponent,
+        ProfileComponent,
+        AboutComponent,
+	AboutmeComponent,
+	IntroComponent,
+
+    ],
+    providers: [ConfigService],
+})
+export class ExamplesModule { }
+

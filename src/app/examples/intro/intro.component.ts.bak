@@ -1,0 +1,25 @@
+import { Component, OnInit } from '@angular/core';
+import { ConfigService } from '../../config/config.services';
+@Component({
+    selector: 'profile-intro',
+    templateUrl: './intro.component.html',
+    styleUrls: ['./intro.component.scss']
+})
+export class IntroComponent implements OnInit {
+    test : Date = new Date();
+    focus;
+    focus1;
+    public data: any;
+    public userDetails: any;
+
+    constructor(
+       userService: ConfigService
+    ) {
+     this.userDetails = userService.getHeroes();
+    }
+
+    ngOnInit(): void {}
+
+
+}
+ 
